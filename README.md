@@ -8,10 +8,22 @@ To write a program to predict the profit of a city using the linear regression m
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
 ## Algorithm
-1. 
-2. 
-3. 
-4. 
+STEP 1 : Start
+
+STEP 2 : Load the dataset, convert the feature columns and target column to float, and apply standard scaling to normalize the data.
+
+STEP 3 : Add a bias term (column of ones) to the feature matrix and initialize the parameter vector theta to zeros.
+
+STEP 4 : For a fixed number of iterations, compute predictions, calculate the errors, and update the parameter vector theta using the gradient descent formula.
+
+STEP 5 : Pass the scaled features and target values to the linear_regression function to learn the optimal theta values.
+
+STEP 6 : Scale new data using the same scaling technique, then predict the target value by performing matrix multiplication with the learned parameters theta.
+
+STEP 7 : Inverse transform the predicted scaled value to get the original-scale prediction.
+
+STEP 8 : Display the predicted target value for the new data point.
+STEP 9 : End
 
 ## Program:
 ```
@@ -67,8 +79,13 @@ print(f"Predicted value: {pre}")
 ```
 
 ## Output:
-![linear regression using gradient descent](sam.png)
+Head Values
 
+![image](https://github.com/user-attachments/assets/16e6232f-54ef-4059-9525-89faa427688c)
+
+Predicted Value
+
+![image](https://github.com/user-attachments/assets/5342906b-25da-437e-91de-4764a9b3a56c)
 
 ## Result:
 Thus the program to implement the linear regression using gradient descent is written and verified using python programming.
