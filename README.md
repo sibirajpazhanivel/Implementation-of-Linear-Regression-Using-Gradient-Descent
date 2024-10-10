@@ -30,7 +30,7 @@ STEP 9 : End
 /*
 Program to implement the linear regression using gradient descent.
 Developed by: Manoj MV
-RegisterNumber:  212222220023
+RegisterNumber:  212222220046
 */
 import numpy as np
 import pandas as pd
